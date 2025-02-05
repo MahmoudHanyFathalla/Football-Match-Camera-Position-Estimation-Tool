@@ -5,9 +5,13 @@ This project is a Qt-based application for football analysis and data annotation
 
 ![Application Viwe](vid.gif)
 
-![Image 1](1.PNG) ![Image 2](2.PNG)  
-![Image 3](3.PNG) ![Image 4](4.PNG)
-![Image 2](5.PNG)
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="1.PNG" alt="Image 1" style="width: 45%; max-width: 200px;">
+  <img src="2.PNG" alt="Image 2" style="width: 45%; max-width: 200px;">
+  <img src="3.PNG" alt="Image 3" style="width: 45%; max-width: 200px;">
+  <img src="4.PNG" alt="Image 4" style="width: 45%; max-width: 200px;">
+</div>
+
 
 ## Features
 - **Image Loading and Display**: Supports loading and viewing images within the application.
