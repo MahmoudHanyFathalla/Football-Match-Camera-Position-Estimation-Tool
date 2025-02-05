@@ -1,19 +1,21 @@
+# Football-Match-Camera-Position-Estimation-Tool
+
 ## Overview
 This project is a Qt-based application for football analysis and data annotation in a 2D view. It provides tools for calculating scores based on image transformations and manipulations. The application utilizes OpenCV for image processing and Qt for the graphical user interface.
 
 ## Application Gif View
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="vid.gif" alt="Image 1">
-  <img src="1.PNG" alt="Image 2" style="width: 45%; max-width: 200px;">
+  <img src="assets/vid.gif" alt="Image 1">
+  <img src="assets/1.PNG" alt="Image 2" style="width: 45%; max-width: 200px;">
 
 </div>
 
 ## Application view
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="2.PNG" alt="Image 1" style="width: 45%; max-width: 200px;">
-  <img src="3.PNG" alt="Image 2" style="width: 45%; max-width: 200px;">
-  <img src="4.PNG" alt="Image 3" style="width: 45%; max-width: 200px;">
-  <img src="5.PNG" alt="Image 4" style="width: 45%; max-width: 200px;">
+  <img src="assets/2.PNG" alt="Image 1" style="width: 45%; max-width: 200px;">
+  <img src="assets/3.PNG" alt="Image 2" style="width: 45%; max-width: 200px;">
+  <img src="assets/4.PNG" alt="Image 3" style="width: 45%; max-width: 200px;">
+  <img src="assets/5.PNG" alt="Image 4" style="width: 45%; max-width: 200px;">
 </div>
 
 ## Features
