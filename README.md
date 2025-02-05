@@ -3,6 +3,11 @@
 ## Overview
 This project is a Qt-based application for football analysis and data annotation in a 2D view. It provides tools for calculating scores based on image transformations and manipulations. The application utilizes OpenCV for image processing and Qt for the graphical user interface.
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="vid.gif" alt="Image 1" style="width: 45%; max-width: 200px;">
+  <img src="1.PNG" alt="Image 2" style="width: 45%; max-width: 200px;">
+ 
+</div>
 ![Application Viwe](vid.gif)
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
@@ -11,7 +16,6 @@ This project is a Qt-based application for football analysis and data annotation
   <img src="4.PNG" alt="Image 3" style="width: 45%; max-width: 200px;">
   <img src="5.PNG" alt="Image 4" style="width: 45%; max-width: 200px;">
 </div>
-<img src="1.PNG" alt="Image 4" style="width: 45%; max-width: 600px;">
 
 ## Features
 - **Image Loading and Display**: Supports loading and viewing images within the application.
