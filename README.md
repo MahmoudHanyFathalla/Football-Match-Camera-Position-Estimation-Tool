@@ -5,6 +5,10 @@ This project is a Qt-based application for football analysis and data annotation
 
 ![Application Viwe](vid.gif)
 
+![Image 1](1.png) ![Image 2](2.png)  
+![Image 3](3.png) ![Image 4](4.png)
+![Image 2](5.png)
+
 ## Features
 - **Image Loading and Display**: Supports loading and viewing images within the application.
 - **Perspective Transformations**: Applies various image transformations for accurate data representation.
