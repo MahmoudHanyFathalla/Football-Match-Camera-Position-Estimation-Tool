@@ -2,6 +2,7 @@
 
 ## Overview
 This project is a Qt-based application for football analysis and data annotation in a 2D view. It provides tools for calculating scores based on image transformations and manipulations. The application utilizes OpenCV for image processing and Qt for the graphical user interface.
+
 ![Application Viwe](vid.gif)
 
 ## Features
