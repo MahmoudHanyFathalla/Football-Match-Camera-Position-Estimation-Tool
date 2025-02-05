@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1969</width>
+    <height>994</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QSplitter" name="splitter_7">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <widget class="QSplitter" name="splitter_6">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <widget class="QWidget" name="widget_4" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="spacing">
+             <number>1</number>
+            </property>
+            <property name="leftMargin">
+             <number>9</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>9</number>
+            </property>
+            <property name="bottomMargin">
+             <number>9</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_2" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0,0">
+               <property name="spacing">
+                <number>9</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="previous10Image">
+                 <property name="text">
+                  <string>&lt;&lt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="previousImage">
+                 <property name="text">
+                  <string>&lt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="widget_5" native="true">
+                 <layout class="QVBoxLayout" name="verticalLayout">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="leftMargin">
+                   <number>9</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_21">
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QSlider" name="horizontalSlider">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_22">
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="nextImage">
+                 <property name="text">
+                  <string>&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="next10Image">
+                 <property name="text">
+                  <string>&gt;&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QSplitter" name="splitter_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QSplitter" name="splitter_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+           <widget class="QSplitter" name="splitter_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QWidget" name="widget_6" native="true">
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="3" column="4">
+               <widget class="QPushButton" name="AllRectToUp">
+                <property name="text">
+                 <string>↑</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="4">
+               <widget class="QPushButton" name="RectBottomSideToUp">
+                <property name="text">
+                 <string>↑</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="4">
+               <widget class="QPushButton" name="AllRectToDown">
+                <property name="text">
+                 <string>↓ </string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="5">
+               <widget class="QPushButton" name="AllRectToRight">
+                <property name="text">
+                 <string>→</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="4">
+               <widget class="QPushButton" name="RectTopSideToDown">
+                <property name="text">
+                 <string>↓ </string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="4">
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>ALL</string>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="0" colspan="5">
+               <widget class="Line" name="line_11">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="3">
+               <widget class="QPushButton" name="AllRectToLeft">
+                <property name="text">
+                 <string>←</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="4">
+               <widget class="QPushButton" name="RectBottomSideToDown">
+                <property name="text">
+                 <string>↓ </string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="6">
+               <widget class="QPushButton" name="RectRightSideToLeft">
+                <property name="text">
+                 <string>←</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="8">
+               <widget class="QPushButton" name="RectRightSideToRight">
+                <property name="text">
+                 <string>→</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QPushButton" name="RectLeftSideToRight">
+                <property name="text">
+                 <string>→</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QPushButton" name="RectLeftSideToLeft">
+                <property name="text">
+                 <string>←</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="7" rowspan="2">
+               <widget class="Line" name="line_10">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1" rowspan="3">
+               <widget class="Line" name="line_7">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="4">
+               <widget class="QPushButton" name="RectTopSideToUp">
+                <property name="text">
+                 <string>↑</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" rowspan="2">
+               <widget class="Line" name="line_13">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="widget_7" native="true">
+             <layout class="QGridLayout" name="gridLayout_2">
+              <item row="1" column="0">
+               <widget class="Line" name="line_12">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QPushButton" name="TrapTopSideToUp">
+                <property name="text">
+                 <string>↑</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QPushButton" name="TrapBottomSideToUp">
+                <property name="text">
+                 <string>↑</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QPushButton" name="TrapTopSideToDown">
+                <property name="text">
+                 <string>↓ </string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="Line" name="line_14">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QPushButton" name="TrapBottomSideToDown">
+                <property name="text">
+                 <string>↓ </string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="widget_8" native="true">
+          <layout class="QGridLayout" name="gridLayout_9">
+           <item row="1" column="0">
+            <widget class="QListWidget" name="listWidget"/>
+           </item>
+           <item row="2" column="7">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>V angle</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" rowspan="2">
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>GOOD LUCK :) </string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="9" rowspan="3">
+            <widget class="QPushButton" name="increaseMovingRatio">
+             <property name="text">
+              <string>+</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="3" colspan="4">
+            <widget class="QPushButton" name="reset">
+             <property name="text">
+              <string>Reset</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="10" rowspan="3">
+            <widget class="QPushButton" name="HorizontalRotationToRight">
+             <property name="text">
+              <string>RIGHT</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>load left</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="3" colspan="4">
+            <widget class="QPushButton" name="openFolder">
+             <property name="text">
+              <string>open folder</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="10" rowspan="3">
+            <widget class="QPushButton" name="decreaseMovingRatio">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="7" rowspan="3" colspan="2">
+            <widget class="QLabel" name="label_24">
+             <property name="text">
+              <string>H ROTATE</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="3" colspan="4">
+            <widget class="QPushButton" name="load">
+             <property name="text">
+              <string>Load From Output Folder</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3" colspan="2">
+            <widget class="QPushButton" name="pushButton_36">
+             <property name="text">
+              <string>view 3</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="7">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>H angle</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="7" rowspan="3">
+            <widget class="QLabel" name="label_18">
+             <property name="text">
+              <string>M Ratio</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="9" rowspan="3">
+            <widget class="QPushButton" name="HorizontalRotationToLeft">
+             <property name="text">
+              <string>LEFT</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="5" colspan="2">
+            <widget class="QPushButton" name="pushButton_37">
+             <property name="text">
+              <string>view 4</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3" rowspan="2" colspan="2">
+            <widget class="QLabel" name="label_25">
+             <property name="text">
+              <string>LOCK IS : OFF</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="8" rowspan="2">
+            <widget class="QLabel" name="label_28">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="10">
+            <widget class="QPushButton" name="decreaseVRotationAngle">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="10" rowspan="2">
+            <widget class="QPushButton" name="decreaseZoomRatio">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="9">
+            <widget class="QPushButton" name="increaseHRotationAngle">
+             <property name="text">
+              <string>+</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="9">
+            <widget class="QPushButton" name="VerticalRotationToLeft">
+             <property name="text">
+              <string>LEFT</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5" rowspan="2" colspan="2">
+            <widget class="QLabel" name="label_26">
+             <property name="text">
+              <string>ZOOM IS : OFF</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="7" colspan="2">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>V ROTATE</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3" colspan="2">
+            <widget class="QPushButton" name="pushButton_34">
+             <property name="text">
+              <string>view 1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="10">
+            <widget class="QPushButton" name="decreaseHRotationAngle">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8" colspan="3">
+            <widget class="QLabel" name="label_17">
+             <property name="text">
+              <string>   DOWN IMAGE</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="3" colspan="4">
+            <widget class="QPushButton" name="save">
+             <property name="text">
+              <string>save</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="9">
+            <widget class="QPushButton" name="increaseVRotationAngle">
+             <property name="text">
+              <string>+</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="9" rowspan="2">
+            <widget class="QPushButton" name="increaseZoomRatio">
+             <property name="text">
+              <string>+</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="10">
+            <widget class="QPushButton" name="VerticalRotationToRight">
+             <property name="text">
+              <string>RIGHT</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="8">
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="5" colspan="2">
+            <widget class="QPushButton" name="pushButton_35">
+             <property name="text">
+              <string>view 2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="7" rowspan="2">
+            <widget class="QLabel" name="label_27">
+             <property name="text">
+              <string>Z Ratio</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="8">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string>load right</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="8" rowspan="3">
+            <widget class="QLabel" name="label_19">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="text">
+              <string>next frame</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="text">
+              <string>last fram</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2">
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="text">
+              <string>remove</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Default Mood</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <widget class="QWidget" name="widget_9" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>1915</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,0,0">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_29">
+          <property name="text">
+           <string>This image score is : </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_30">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_31">
+          <property name="text">
+           <string>Your score is : </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_32">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1969</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpen_Folder"/>
+    <addaction name="actionLoad_Mode"/>
+    <addaction name="actionSave_2"/>
+    <addaction name="actionExit_2"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionReset"/>
+    <addaction name="actionRatios"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="actionShortcuts"/>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEdit">
+   <property name="text">
+    <string>Open Folder</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionReset">
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionA_next_img">
+   <property name="text">
+    <string>A -&gt; previous img</string>
+   </property>
+  </action>
+  <action name="actionD_next_img">
+   <property name="text">
+    <string>D -&gt; next img</string>
+   </property>
+  </action>
+  <action name="actionZ_zoom">
+   <property name="text">
+    <string>Z -&gt; zoom</string>
+   </property>
+  </action>
+  <action name="actionL_look">
+   <property name="text">
+    <string>L -&gt; look</string>
+   </property>
+  </action>
+  <action name="actionR_reset">
+   <property name="text">
+    <string>R -&gt; reset</string>
+   </property>
+  </action>
+  <action name="actionV">
+   <property name="text">
+    <string>V -&gt;</string>
+   </property>
+  </action>
+  <action name="actionN">
+   <property name="text">
+    <string>N -&gt;</string>
+   </property>
+  </action>
+  <action name="actionI">
+   <property name="text">
+    <string>I -&gt;</string>
+   </property>
+  </action>
+  <action name="actionP">
+   <property name="text">
+    <string>P -&gt;</string>
+   </property>
+  </action>
+  <action name="actionOpen_Folder">
+   <property name="text">
+    <string>Open Folder</string>
+   </property>
+  </action>
+  <action name="actionSave_2">
+   <property name="text">
+    <string>Save Design</string>
+   </property>
+  </action>
+  <action name="actionExit_2">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionShortcuts">
+   <property name="text">
+    <string>Shortcuts</string>
+   </property>
+  </action>
+  <action name="actionLoad_Mode">
+   <property name="text">
+    <string>Load Mode</string>
+   </property>
+  </action>
+  <action name="actionRatios">
+   <property name="text">
+    <string>Ratios</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
